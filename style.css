@@ -38,12 +38,12 @@ h2{
 
 
 main a{
- color:#F30D6F;
+ color:white;
  background-color: black;
 }
 
 .events a, header a{
- color:#F30D6F;
+ color:white;
  text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ text-decoration: none;
 }
 
 a:hover{
- color:#F883BC;
+ color:lightgrey;
 }
 
 .img-responsive{
@@ -69,7 +69,7 @@ header{
 
 #dropmenu{
 position:absolute;
-border:solid 1px #F27649;
+border:solid 1px #F883BC;
 padding:0.5em;
 background-color: black;
 text-align: right;
@@ -103,7 +103,7 @@ padding:0.5em;
 
 .search-program a{
  text-decoration: none;
- color:#0583F2;
+ color:white;
  font-weight:600;
  padding:0.5em;
  display:block;
@@ -233,11 +233,12 @@ display:flex;
 }
 
 .program-menu li ul li{
- background-color:#fff;
+ background-color:black;
 }
 
 .program-menu li ul li:hover{
-background-color:#080726;
+  color:black;
+background-color:lightgrey;
 }
 
 .program-menu li li{
@@ -260,4 +261,45 @@ grid-gap: 2em;
 .programs-title{
  grid-column-start:1;
  grid-column-end:4;
-  }
+
+}
+
+
+.grid > div {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	height: 50%;
+	width: 50%;
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.grid > div.gridtl {
+	left: 0%;
+	top: 0%;
+	background-color: #333;
+}
+.grid > div.gridtr {
+	left: 50%;
+	top: 0%;
+	background-color: #555;
+}
+.grid > div.gridbl {
+	left: 0%;
+	top: 50%;
+	background-color: #555;
+}
+.grid > div.gridbr {
+	left: 50%;
+	top: 50%;
+	background-color: #333;
+}
