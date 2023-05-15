@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500&family=PT+Sans:wght@400;700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Barlow+Condensed:wght@100&family=Lobster&family=Oswald:wght@500&family=PT+Sans:wght@400;700&family=Play&display=swap');
 
 
 
@@ -21,10 +21,15 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald';
+  font-family: 'Barlow Condensed';
 }
 h1{
-  font-size: 50px;
+  font-size: 28px;
+  font-family: Lobster;
+  color: white;
+  padding-top: 1px;
+  padding-left: 2px;
+  margin-left: 2px;
 
 }
 a{
@@ -182,7 +187,7 @@ h1, h2, h3, h4, h5 {
 	margin: 1em 0 .5em 0;
 }
 */
-h1 { font-size: 38px;  }
+h1 { font-size: 60px;  }
 h2 { font-size: 30px; }
 h3 { font-size: 26.25px; }
 h4 { font-size: 22.5px; }
