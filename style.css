@@ -23,6 +23,8 @@ background-color:  #232121;
 
 p, h1, h2,h3,nav, article{
  margin-bottom: 1em;
+ margin-left: 2em;
+ margin-right: 2em;
  color:#ffff;
 }
 
